@@ -6,9 +6,9 @@
     padding: 0 30px;
 }
 
-/* Header adjustments for tablet */
-.logo {
-    font-size: 1.8rem;
+/* Logo adjustments for tablet */
+.logo-img {
+    height: 45px;
 }
 
 .nav-links {
