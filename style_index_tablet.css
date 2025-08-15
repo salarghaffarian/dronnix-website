@@ -1,0 +1,116 @@
+/* Tablet Styles - Modern Responsive Design */
+/* Applied for screens 481px to 768px */
+
+.container {
+    max-width: 100%;
+    padding: 0 30px;
+}
+
+/* Header adjustments for tablet */
+.logo {
+    font-size: 1.8rem;
+}
+
+.nav-links {
+    gap: 2rem;
+}
+
+.nav-links a {
+    font-size: 0.95rem;
+}
+
+/* Hero section optimizations */
+.hero {
+    padding: 3rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    padding: 1.2rem 2.5rem;
+    font-size: 1.1rem;
+}
+
+/* Services section - optimized for tablet */
+.services {
+    padding: 3.5rem 0;
+    margin: 1.5rem 0;
+}
+
+.services h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.service-grid {
+    gap: 2.5rem;
+}
+
+.service-card {
+    padding: 2.5rem;
+    gap: 2.5rem;
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.service-card p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-features {
+    margin-bottom: 1.5rem;
+}
+
+.service-features li {
+    font-size: 0.95rem;
+    margin-bottom: 0.7rem;
+}
+
+/* Image adjustments for tablet */
+.service-image-container {
+    flex: 0 0 350px;
+    height: 525px;
+}
+
+.learn-more-btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+}
+
+/* About section */
+.about {
+    padding: 3.5rem 0;
+}
+
+.about h2 {
+    font-size: 2.2rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    max-width: 700px;
+}
+
+/* Footer */
+footer {
+    padding: 1.8rem 0;
+}
+
+footer p {
+    font-size: 0.95rem;
+}
