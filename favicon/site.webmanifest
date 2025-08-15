@@ -1,0 +1,21 @@
+{
+    "name": "Dronnix - Drone Mapping & AI Detection",
+    "short_name": "Dronnix",
+    "description": "Advanced drone mapping solutions with AI-powered object detection and vector extraction",
+    "icons": [
+        {
+            "src": "favicon/favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#A076B1",
+    "background_color": "#0a0a0a",
+    "display": "standalone",
+    "start_url": "/"
+}
