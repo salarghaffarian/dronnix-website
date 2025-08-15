@@ -1,6 +1,17 @@
 /* Tablet Styles - Modern Responsive Design */
 /* Applied for screens 481px to 768px */
 
+/* Background and overall styling */
+body {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+}
+
+/* Header styling */
+header {
+    background: rgba(10, 10, 10, 0.95);
+    border-bottom: 1px solid rgba(160, 118, 177, 0.3);
+}
+
 .container {
     max-width: 100%;
     padding: 0 30px;
@@ -9,14 +20,33 @@
 /* Logo adjustments for tablet */
 .logo-img {
     height: 45px;
+    filter: drop-shadow(0 0 18px rgba(160, 118, 177, 0.6));
 }
 
+.logo:hover .logo-img {
+    filter: drop-shadow(0 0 22px rgba(160, 118, 177, 1));
+}
+
+/* Navigation styling */
 .nav-links {
     gap: 2rem;
 }
 
 .nav-links a {
     font-size: 0.95rem;
+    color: #e2e8f0;
+}
+
+.nav-links a:hover {
+    color: #A076B1;
+}
+
+.nav-links a.active {
+    color: #A076B1;
+}
+
+.nav-links a::after {
+    background: linear-gradient(90deg, #A076B1, #C89BD8);
 }
 
 /* Hero section optimizations */
@@ -40,12 +70,21 @@
 .cta-button {
     padding: 1.2rem 2.5rem;
     font-size: 1.1rem;
+    background: linear-gradient(135deg, #A076B1 0%, #8A65A0 100%);
+    box-shadow: 0 10px 30px rgba(160, 118, 177, 0.3);
+}
+
+.cta-button:hover {
+    background: linear-gradient(135deg, #8A65A0 0%, #7A5B8E 100%);
+    box-shadow: 0 15px 40px rgba(160, 118, 177, 0.5);
 }
 
 /* Services section - optimized for tablet */
 .services {
     padding: 3.5rem 0;
     margin: 1.5rem 0;
+    background: rgba(26, 26, 46, 0.7);
+    border: 1px solid rgba(160, 118, 177, 0.2);
 }
 
 .services h2 {
@@ -60,6 +99,14 @@
 .service-card {
     padding: 2.5rem;
     gap: 2.5rem;
+    background: rgba(22, 33, 62, 0.6);
+    border: 1px solid rgba(160, 118, 177, 0.2);
+}
+
+.service-card:hover {
+    box-shadow: 0 25px 50px rgba(160, 118, 177, 0.3);
+    border-color: rgba(160, 118, 177, 0.5);
+    background: rgba(22, 33, 62, 0.8);
 }
 
 .service-card h3 {
@@ -70,6 +117,7 @@
 .service-card p {
     font-size: 1rem;
     margin-bottom: 1.5rem;
+    color: #e2e8f0;
 }
 
 .service-features {
@@ -79,6 +127,11 @@
 .service-features li {
     font-size: 0.95rem;
     margin-bottom: 0.7rem;
+    color: #cbd5e1;
+}
+
+.service-features li:before {
+    color: #A076B1;
 }
 
 /* Image adjustments for tablet */
@@ -90,11 +143,22 @@
 .learn-more-btn {
     padding: 12px 24px;
     font-size: 1rem;
+    background: rgba(160, 118, 177, 0.15);
+    color: #A076B1;
+    border: 1px solid rgba(160, 118, 177, 0.4);
+}
+
+.learn-more-btn:hover {
+    background: rgba(160, 118, 177, 0.25);
+    box-shadow: 0 8px 20px rgba(160, 118, 177, 0.3);
+    color: #C89BD8;
 }
 
 /* About section */
 .about {
     padding: 3.5rem 0;
+    background: rgba(26, 26, 46, 0.7);
+    border: 1px solid rgba(160, 118, 177, 0.2);
 }
 
 .about h2 {
@@ -109,6 +173,8 @@
 /* Footer */
 footer {
     padding: 1.8rem 0;
+    background: rgba(10, 10, 10, 0.9);
+    border-top: 1px solid rgba(160, 118, 177, 0.3);
 }
 
 footer p {
